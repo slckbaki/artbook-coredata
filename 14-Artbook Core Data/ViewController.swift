@@ -18,7 +18,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     var selectedPainging = ""
     var selectedPaintingId : UUID?
     
-    
+    // Github icin test
     
     override func viewDidLoad() {
         super.viewDidLoad()
