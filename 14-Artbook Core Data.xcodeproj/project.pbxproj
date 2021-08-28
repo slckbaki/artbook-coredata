@@ -14,6 +14,7 @@
 		A1F434C526CEE00F008F23F3 /* _4_Artbook_Core_Data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1F434C326CEE00F008F23F3 /* _4_Artbook_Core_Data.xcdatamodeld */; };
 		A1F434C726CEE011008F23F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F434C626CEE011008F23F3 /* Assets.xcassets */; };
 		A1F434CA26CEE011008F23F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1F434C826CEE011008F23F3 /* LaunchScreen.storyboard */; };
+		A1F434D226CF243D008F23F3 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F434D126CF243D008F23F3 /* DetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A1F434C626CEE011008F23F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1F434C926CEE011008F23F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1F434CB26CEE011008F23F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1F434D126CF243D008F23F3 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				A1F434BA26CEE00F008F23F3 /* AppDelegate.swift */,
 				A1F434BC26CEE00F008F23F3 /* SceneDelegate.swift */,
 				A1F434BE26CEE00F008F23F3 /* ViewController.swift */,
+				A1F434D126CF243D008F23F3 /* DetailsVC.swift */,
 				A1F434C026CEE00F008F23F3 /* Main.storyboard */,
 				A1F434C626CEE011008F23F3 /* Assets.xcassets */,
 				A1F434C826CEE011008F23F3 /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 				A1F434BB26CEE00F008F23F3 /* AppDelegate.swift in Sources */,
 				A1F434C526CEE00F008F23F3 /* _4_Artbook_Core_Data.xcdatamodeld in Sources */,
 				A1F434BD26CEE00F008F23F3 /* SceneDelegate.swift in Sources */,
+				A1F434D226CF243D008F23F3 /* DetailsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tourvidi.-4-Artbook-Core-Data";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,7 +323,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tourvidi.-4-Artbook-Core-Data";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
